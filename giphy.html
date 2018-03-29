@@ -1,0 +1,26 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Your Personal Gif Heaven</title>
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+</head>
+<body>
+	<!-- The area that we will place all of our buttons will hold our jQuery. -->
+	<div id="buttonsArea"></div>
+<!-- 
+	This will allow us to create new buttons to add into our buttons area -->
+	<form id="search-form">
+		<label for="search-input">Add in your search!</label>
+		<input type="text" id="search-input"><br>
+		<input id ="addSearch" type="submit" value="Submit">
+		<!-- (have to add an input id- for the submit to then use for the click function to add new buttons to the screen) -->
+	</form>
+
+	<!-- will modify this with jquery -->
+	<div id="searches"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="javagiphy.js"></script>
+	
+</body>
+</html>
