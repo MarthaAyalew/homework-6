@@ -1,26 +1,36 @@
 <html>
+
 <head>
 	<meta charset="UTF-8">
-	<title>Your Personal Gif Heaven</title>
-	<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+	<title>Giphy HM</title>
+
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+	 crossorigin="anonymous">
+
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	 crossorigin="anonymous"></script>
 </head>
+
 <body>
-	<!-- The area that we will place all of our buttons will hold our jQuery. -->
+
 	<div id="buttonsArea"></div>
-<!-- 
-	This will allow us to create new buttons to add into our buttons area -->
-	<form id="search-form">
-		<label for="search-input">Add in your search!</label>
-		<input type="text" id="search-input"><br>
-		<input id ="addSearch" type="submit" value="Submit">
-		<!-- (have to add an input id- for the submit to then use for the click function to add new buttons to the screen) -->
+	
+	<form id="search-form"><label for="search-input" button=primary>Add in your search!</label>
+		<br>
+		<input type="text" id="search-input">
+		<br>
+		<input id="addSearch" type="submit" value="Submit">
+	
 	</form>
 
-	<!-- will modify this with jquery -->
+	
 	<div id="searches"></div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="javagiphy.js"></script>
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javagiphy.js"></script>
+
 </body>
+
 </html>
